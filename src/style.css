@@ -1,9 +1,11 @@
-/*{
-    /* border: 1px solid black;
-} */ 
+/* *{
+     border: 1px solid black;
+}  */
 .Card{
     height:400px;
-    background-color:#260d33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img{
     width:50px;
@@ -11,30 +13,18 @@
 .imgMenu{
     width: 30px;
 }
-.imgProfile{
-    align-items: center;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-.imgProfileSub{
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
+
 .ul{
-    margin-top: 50px;
     list-style: none;
     padding: 0;
 }
 .ulItems a{
     text-decoration: none;
-    color: aliceblue;
+    color: #157a8c;
 }
 .ulItems{
      font-size:23px;
      font-weight: bold;
+     margin-left: 20px;
 }
 
