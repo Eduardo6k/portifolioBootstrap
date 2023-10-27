@@ -1,6 +1,6 @@
-/* *{
+ *{
      border: 1px solid black;
-}  */
+}  
 .Card{
     height:400px;
     display: flex;
@@ -26,5 +26,15 @@
      font-size:23px;
      font-weight: bold;
      margin-left: 20px;
+}
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width:100%;
+}
+.imageproject{
+    width: 230px;
+    height: 230px;
 }
 
