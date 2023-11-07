@@ -1,14 +1,22 @@
  /* *{
      border: 1px solid black;
-}   */
+}   */ 
+
+.text{
+    margin: 10px;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .Card{
-    height:400px;
+    height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img{
-    width:50px;
+    width:55px;
+ 
 }
 .imgMenu{
     width: 30px;
@@ -28,9 +36,9 @@
      margin-left: 20px;
 }
 .titulo{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-left: 20px;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    padding-left: 20px; 
     width:100%;
 }
 .imageproject{
@@ -38,3 +46,14 @@
     height: 230px;
 }
 
+.proxPage{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.proxPageSet{
+    width: 40px;
+}
