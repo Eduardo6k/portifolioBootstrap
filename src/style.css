@@ -46,14 +46,29 @@
     height: 230px;
 }
 
-.proxPage{
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 250px;
-    margin-bottom: 50px;
-}
+
 .proxPageSet{
     width: 40px;
 }
+#projetos{
+    padding: 20px;
+}
+
+/* Estilo padrão para ocultar o botão */
+.proxPage {
+    display: none;
+  }
+  
+  /* Media query para exibir o botão quando a largura da tela for maior ou igual a 768 pixels (ou qualquer valor desejado) */
+  @media screen and (min-width: 768px) {
+    .proxPage {
+      display: block;
+      width:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 250px;
+      margin-bottom: 50px;
+    }
+  }
+  
