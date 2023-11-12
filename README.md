@@ -12,12 +12,11 @@ Eu sou o Eduardo, um desenvolvedor apaixonado por aprender novas coisas.
 - **Contato:**
 
 ### **Como Entrar em Contato**
-- **E-mail:** 
+- **E-mail:*eduardoalvesmartinsneto41@gmail.com* 
 - **LinkedIn:**
 - **GitHub:** 
-- **Twitter:**
 
 ### **Obrigado por Visitar!**
 Obrigado por dedicar seu tempo para explorar meu portfólio. Se você tem alguma pergunta ou oportunidade de colaboração, não hesite em entrar em contato. Estou ansioso para ouvir de você!
 
-*Última atualização: 26/10/23*
+*Última atualização: 12/11/23*
