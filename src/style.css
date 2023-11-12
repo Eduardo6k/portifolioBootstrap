@@ -2,79 +2,97 @@
      border: 1px solid black;
 }    */
 
-.text{
-    margin: 10px;
-    font-size: large;
-    font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.Card{
-    height:300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.img{
-    width:55px;
- 
-}
-.imgMenu{
-    width: 30px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Roboto:wght@400&display=swap');
 
-.ul{
-    list-style: none;
-    padding: 0;
-}
-.ulItems a{
-    text-decoration: none;
-    color: #157a8c;
-}
-.ulItems{
-     font-size:23px;
-     font-weight: bold;
-     margin-left: 20px;
-}
-.titulo{
-    margin-top: 30px; 
-    margin-bottom: 30px; 
-    padding-left: 20px; 
-    width:100%;
-}
-.imageproject{
-    width: 200px;
-    height: 180px;
-}
-
-
-.proxPageSet{
-    width: 40px;
-}
-#projetos{
-    padding: 20px;
-}
-
-/* Estilo padrão para ocultar o botão */
-.proxPage {
-    display: none;
+body {
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    
   }
 
-.alin{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  
-  /* Media query para exibir o botão quando a largura da tela for maior ou igual a 768 pixels (ou qualquer valor desejado) */
-  @media screen and (min-width: 768px) {
-    .proxPage {
-      display: block;
-      width:100%;
+  .text {
+      margin: 10px;
+      font-family: 'Instrument Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+  }
+
+  .Card {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img {
+      width: 55px;
+
+  }
+
+  .imgMenu {
+      width: 30px;
+  }
+
+  .ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .ulItems a {
+      text-decoration: none;
+      color: #157a8c;
+  }
+
+  .ulItems {
+      font-size: 23px;
+      font-weight: bold;
+      margin-left: 20px;
+  }
+
+  .titulo {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-left: 20px;
+      width: 100%;
+  }
+
+  .imageproject {
+      width: 200px;
+      height: 180px;
+  }
+
+
+  .proxPageSet {
+      width: 40px;
+  }
+
+  #projetos {
+      padding: 20px;
+  }
+
+  /* Estilo padrão para ocultar o botão */
+  .proxPage {
+      display: none;
+  }
+
+  .alin {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 250px;
-      margin-bottom: 50px;
-    }
   }
-  
+.card{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2); ;
+}
+  /* Media query para exibir o botão quando a largura da tela for maior ou igual a 768 pixels (ou qualquer valor desejado) */
+  @media screen and (min-width: 768px) {
+      .proxPage {
+          display: block;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 210px;
+          margin-bottom: 50px;
+      }
+  }
